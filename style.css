@@ -1,0 +1,144 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card-bg {
+    width: 250px;
+    height: 430px;
+}
+
+#card {
+    background: hsl(216, 50%, 16%);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#card-img {
+    width: 220px;
+    margin-top: 5px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#section {
+    margin-top: 50px;
+    margin: 0 20px 0;
+    color: white;
+    height: 40%;
+}
+
+/* 
+#section * {
+    margin-bottom: 10px;
+} */
+.margbt10 {
+    margin-bottom: 10px;
+}
+.margbt20 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+}
+
+p {
+    font-size: 0.7em;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    /* margin-bottom: 10px; */
+}
+
+.cnt-max {
+    display: flex;
+    justify-content: space-between;
+    /* height: 10px; */
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+
+.data .cnt-img {
+    width: 8px;
+}
+
+.data span {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 10px;
+    color: hsl(178, 100%, 50%);
+}
+
+#data span:nth-child(2) {
+    color: hsl(215, 51%, 70%);
+}
+
+#data .cnt-img:nth-child(1) {
+    width: 12px;
+}
+
+.block {
+    width: 100%;
+    height: 1px;
+    background: hsl(215, 32%, 27%);
+}
+
+.tutto {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    height: 30px;
+
+}
+
+.tutto * {
+    margin: 0;
+}
+
+.tutto .immagine img {
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.tutto .testo {
+    font-size: 0.75em;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
