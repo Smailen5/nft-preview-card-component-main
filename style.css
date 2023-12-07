@@ -1,12 +1,3 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +13,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 .card-bg {
     width: 250px;
     height: 430px;
@@ -56,13 +48,10 @@ img {
     height: 40%;
 }
 
-/* 
-#section * {
-    margin-bottom: 10px;
-} */
 .margbt10 {
     margin-bottom: 10px;
 }
+
 .margbt20 {
     margin-bottom: 20px;
 }
@@ -70,20 +59,17 @@ img {
 h3 {
     font-size: 1em;
     font-weight: 600;
-    /* margin-bottom: 10px; */
 }
 
 p {
     font-size: 0.7em;
     font-weight: 300;
     color: hsl(215, 51%, 70%);
-    /* margin-bottom: 10px; */
 }
 
 .cnt-max {
     display: flex;
     justify-content: space-between;
-    /* height: 10px; */
 }
 
 .data {
@@ -120,10 +106,7 @@ p {
 
 .tutto {
     display: flex;
-    /* flex-direction: row; */
-    /* flex-wrap: nowrap; */
     height: 30px;
-
 }
 
 .tutto * {
