@@ -146,3 +146,7 @@ h3:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
+
+img:hover {
+    cursor: pointer;
+}
