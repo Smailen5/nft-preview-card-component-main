@@ -159,8 +159,14 @@ img:hover {
     background: hsl(178, 100%, 50%, 0.5);
     z-index: 1;
     display: none;
+    /* display: flex; */
 }
 
 .active {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-view {
+    width: 40px;
 }
