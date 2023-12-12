@@ -87,13 +87,16 @@
       // Aggiungi la classe all'elemento
       let imgActive = document.querySelector("#my-element");
       imgActive.classList.add("active");
+      console.log("Sei dentro");
     });
 
-    element.addEventListener("mouseout", function () {
+      element.addEventListener("mouseout", function () {
       // Rimuovi la classe dall'elemento
       let imgActive = document.querySelector("#my-element");
       imgActive.classList.remove("active");
     });
+    
+    
 
 
 
