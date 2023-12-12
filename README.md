@@ -42,10 +42,11 @@ Users should be able to:
 
 ### Continued development
 
-Centrare icon-view con margin 41% funziona ma, voglio trovare un modo più elegante di centrarlo.
-Non capisco perche la classe active viene aggiunta è rimossa di continuo anche se il mouse si trova all'interno dell'immagine, in futuro spero di risolvere
+- Centrare icon-view con margin 41% funziona ma, voglio trovare un modo più elegante di centrarlo.
+- Non capisco perche la classe active viene aggiunta è rimossa di continuo anche se il mouse si trova all'interno dell'immagine, in futuro spero di risolvere
   potrebbe funzionare dando a img-active un colore totalmente trasparente anziche display none e al passaggio del mouse cambio il colore, potrebbero esserci
-  problemi con icon-view
+  problemi con icon-view.
+- Il problema con img-active non susiste è dovuto alla tab Dev Tolls attiva, quindi il codice funziona
 
 ## Author
 
