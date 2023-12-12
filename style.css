@@ -150,3 +150,17 @@ h3:hover {
 img:hover {
     cursor: pointer;
 }
+
+.img-active {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    position: absolute;
+    background: hsl(178, 100%, 50%, 0.5);
+    z-index: 1;
+    display: none;
+}
+
+.active {
+    display: block;
+}
